@@ -5,4 +5,4 @@
 php quotes.php 7
 ~~~ 
 
-![](img/image.jpg)
+![](https://i.imgur.com/SwwUSjz.jpeg)
