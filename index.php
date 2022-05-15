@@ -11,7 +11,9 @@
   <body>
   <p>
     <?php
-  
+    
+    $numQuote = $_GET['numQuote'];
+    
     foreach ($quotes as  $quote) {
       echo "<p>{$quote}</p>";
     }
