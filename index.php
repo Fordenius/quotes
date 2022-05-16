@@ -13,8 +13,10 @@
     <?php
     
     $numQuote = $_GET['numQuote'];
-    
-    foreach ($quotes as  $quote) {
+
+    $sliceOfQuotes = array_slice($quotes, 0, $numQuote);
+
+    foreach ($sliceOfQuotes as  $quote) {
       echo "<p>{$quote}</p>";
     }
     ?>
