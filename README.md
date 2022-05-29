@@ -12,12 +12,12 @@ php quotes.php 7
 ### Run
 
 ~~~
-1. 'php -S localhost:8000'
+1. php -S localhost:8000
 ~~~
 
 
 ~~~
-2. 'http://localhost:8000/?numQuote=6'
+2. http://localhost:8000/?numQuote=6
 ~~~
 
 ![](https://i.imgur.com/AVqP3tT.jpeg)
