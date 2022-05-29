@@ -16,6 +16,8 @@
 
     $sliceOfQuotes = array_slice($quotes, 0, $numQuote);
 
+    shuffle($sliceOfQuotes);
+
     foreach ($sliceOfQuotes as  $quote) {
       echo "<p>{$quote}</p>";
     }
