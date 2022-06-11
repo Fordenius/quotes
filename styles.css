@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    
+}
+
+
+
+.container p:nth-child(even) {
+ background-color: aqua;
+}
+.data {
+    text-align: center;
+}
+.colich {
+
+
+}
+.button1 {
+    background-color: rgb(23, 23, 35);
+    color: white;
+    border: rgb(23, 23, 35);
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    margin-left: 26px;
+    margin-top: 5px;
+}
+
+.reset {
+    background-color: rgb(230, 73, 73);
+    color: white;
+    border: rgb(23, 23, 35);
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    margin-left: 26px;
+    margin-bottom: 5px;
+}
