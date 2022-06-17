@@ -3,7 +3,7 @@
 ##  CLI version
 ### Run
 ~~~php=
-php quotes.php 7
+php cli.php 7
 ~~~ 
 
 ![](https://i.imgur.com/SwwUSjz.jpeg)

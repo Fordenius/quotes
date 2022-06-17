@@ -14,11 +14,11 @@
     <header>
  <h1>Рандомные цитаты</h1>
 </header> 
-<form>
-<input type="reset" name="sbros" value="Сброс" class="reset"> <br>
-<input type="number" name="numQuote" min="1" max="10" class="colich">
+<form method="get">
+<input type="reset" name="resetButton" value="Сброс" class="resetButton"> <br>
+<input type="number" name="numQuote" min="1" max="10" class="numQuote">
  <br>
- <input type="submit" name="button1" value="Вывести" class="button1">
+ <input type="submit" name="submitButton" value="Вывести" class="submitButton">
 
 </form>
  <div class="container">
@@ -34,7 +34,15 @@
 
   </div>
  <footer> 
-   <p class="data">04.06.2022</p>
+   <p class="data">
+     <?php
+
+$current_year = date ( 'Y' );
+echo $current_year; 
+
+
+?>
+</p>
  <footer>
 
   </body>
