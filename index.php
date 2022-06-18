@@ -35,13 +35,7 @@
   </div>
  <footer> 
    <p class="data">
-     <?php
-
-$current_year = date ( 'Y' );
-echo $current_year; 
-
-
-?>
+2022
 </p>
  <footer>
 
