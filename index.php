@@ -34,9 +34,7 @@
 
   </div>
  <footer> 
-   <p class="data">
-2022
-</p>
+   <p class="data"><?php echo date('Y'); ?></p>
  <footer>
 
   </body>
